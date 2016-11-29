@@ -1,0 +1,22 @@
+.boto{
+   width: 50px;
+   height: 25px;
+   font-size: $botfont-size;
+   padding: $botpadding;
+   border: $botborder;
+   box-shadow: $botbox-shadow;
+   border-radius: $botborder-radius;   
+}
+.boto-default{
+   @extend boto !optional;
+   color: $default;	
+}
+.boto:hover{
+   @extend boto !optional;
+   color: $primary;
+}
+.boto:active{
+   @extend boto !optional;
+   color: $danger;
+}
+

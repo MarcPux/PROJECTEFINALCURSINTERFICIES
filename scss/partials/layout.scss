@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ height: $heightbody;
+}
+header{
+  height: $heightheader;
+  border: solid 2px darkgreen;
+  background-color: red;
+  position: fixed;
+  z-index: 1;
+}

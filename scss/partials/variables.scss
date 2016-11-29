@@ -1,0 +1,35 @@
+//HEADER 
+
+$heightbody: 1000px;
+$heightheader: 60px;
+
+// COLORS
+
+$default: #606a79;
+$defaultlighten: lighten($default, 20%);
+$defaultdarken: darken($default, 20%);
+$success: #8af7fe;
+$successlighten: lighten($success, 20%);
+$successdarken: darken($success, 20%);
+$primary: #a43d75;
+$primarylighten: lighten($primary, 20%);
+$primarydarken: darken($primary, 20%);
+$warning: #ffa500;
+$warninglighten: lighten($warning, 20%);
+$warningdarken: darken($warning, 20%);
+$danger: #a6422a;
+$dangerlighten: lighten($danger, 20%);
+$dangerdarken: darken($danger, 20%);
+
+//BOTONS
+
+$botfont-size: 12px;
+$botpadding: 1px;
+$botborder: 5px solid $default;
+$botbox-shadow: 2px 1px 1px $default;
+$botborder-radius: 5px;
+
+
+
+
+

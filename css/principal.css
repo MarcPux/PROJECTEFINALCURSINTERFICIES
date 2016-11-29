@@ -1,0 +1,122 @@
+.default {
+  color: #606a79; }
+
+.default-lighten {
+  color: #949dab; }
+
+.default-darken {
+  color: #333840; }
+
+.defaultbg {
+  color: #606a79; }
+
+.defaultbg-lighten {
+  color: #949dab; }
+
+.defaultbg-darken {
+  color: #333840; }
+
+.success {
+  color: #8af7fe; }
+
+.success-lighten {
+  color: #effeff; }
+
+.success-darken {
+  color: #25f0fd; }
+
+.successbg {
+  color: #8af7fe; }
+
+.successbg-lighten {
+  color: #effeff; }
+
+.successbg-darken {
+  color: #25f0fd; }
+
+.primary {
+  color: #a43d75; }
+
+.primary-lighten {
+  color: #cd7aa7; }
+
+.primary-darken {
+  color: #5a2140; }
+
+.primarybg {
+  color: #a43d75; }
+
+.primarybg-lighten {
+  color: #cd7aa7; }
+
+.primarybg-darken {
+  color: #5a2140; }
+
+.warning {
+  color: #ffa500; }
+
+.warning-lighten {
+  color: #ffc966; }
+
+.warning-darken {
+  color: #996300; }
+
+.warningbg {
+  color: #ffa500; }
+
+.warningbg-lighten {
+  color: #ffc966; }
+
+.warningbg-darken {
+  color: #996300; }
+
+.danger {
+  color: #a6422a; }
+
+.danger-lighten {
+  color: #d7765f; }
+
+.danger-darken {
+  color: #552215; }
+
+.dangerbg {
+  color: #a6422a; }
+
+.dangerbg-lighten {
+  color: #d7765f; }
+
+.dangerbg-darken {
+  color: #552215; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 1000px; }
+
+header {
+  height: 60px;
+  border: solid 2px darkgreen;
+  background-color: red;
+  position: fixed;
+  z-index: 1; }
+
+.boto {
+  width: 50px;
+  height: 25px;
+  font-size: 12px;
+  padding: 1px;
+  border: 5px solid #606a79;
+  box-shadow: 2px 1px 1px #606a79;
+  border-radius: 5px; }
+
+.boto-default {
+  color: #606a79; }
+
+.boto:hover {
+  color: #a43d75; }
+
+.boto:active {
+  color: #a6422a; }
